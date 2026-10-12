@@ -213,3 +213,5 @@ codecrafthub/
 ├── package.json     # Dependencies
 └── README.md        # Project documentation
 ```
+## FrotEND
+how to run it: cd frontend, npm install, npm run dev, then open http://localhost:5173/ with the backend running.
