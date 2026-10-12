@@ -3,6 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
+const cors = require('cors');
+app.use(cors());
 
 // Configuration
 const DATA_FILE = path.join(__dirname, 'courses.json');
